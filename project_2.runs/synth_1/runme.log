@@ -1,0 +1,295 @@
+
+*** Running vivado
+    with args -log bitcoin_miner.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source bitcoin_miner.tcl
+
+
+
+****** Vivado v2024.2.1 (64-bit)
+  **** SW Build 5266912 on Sun Dec 15 09:03:24 MST 2024
+  **** IP Build 5264866 on Sun Dec 15 16:27:47 MST 2024
+  **** SharedData Build 5264680 on Wed Dec 11 12:48:36 MST 2024
+  **** Start of session at: Tue Feb 25 13:59:30 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source bitcoin_miner.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental C:/Users/surya/Desktop/project_2/project_2.srcs/utils_1/imports/synth_1/bitcoin_miner.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/surya/Desktop/project_2/project_2.srcs/utils_1/imports/synth_1/bitcoin_miner.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top bitcoin_miner -part xc7a200tfbg676-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Device 21-403] Loading part xc7a200tfbg676-2
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 16376
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1078.965 ; gain = 469.258
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'bitcoin_miner' [C:/Users/surya/Desktop/project_2/project_2.srcs/sources_1/new/bitcoin_miner.v:23]
+INFO: [Synth 8-6157] synthesizing module 'sha256_block' [C:/Users/surya/Desktop/project_1/project_1.srcs/sources_1/new/sha256_block.v:25]
+INFO: [Synth 8-6157] synthesizing module 'sha256_round' [C:/Users/surya/Desktop/project_1/project_1.srcs/sources_1/new/sha256_round.v:24]
+INFO: [Synth 8-6157] synthesizing module 'Ch' [C:/Users/surya/Desktop/project_1/project_1.srcs/sources_1/new/Ch.v:24]
+	Parameter WORDSIZE bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Ch' (0#1) [C:/Users/surya/Desktop/project_1/project_1.srcs/sources_1/new/Ch.v:24]
+INFO: [Synth 8-6157] synthesizing module 'Maj' [C:/Users/surya/Desktop/project_1/project_1.srcs/sources_1/new/Maj.v:24]
+	Parameter WORDSIZE bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Maj' (0#1) [C:/Users/surya/Desktop/project_1/project_1.srcs/sources_1/new/Maj.v:24]
+INFO: [Synth 8-6157] synthesizing module 'sha256_S4' [C:/Users/surya/Desktop/project_1/project_1.srcs/sources_1/new/sha256_S4.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'sha256_S4' (0#1) [C:/Users/surya/Desktop/project_1/project_1.srcs/sources_1/new/sha256_S4.v:23]
+INFO: [Synth 8-6157] synthesizing module 'sha256_S3' [C:/Users/surya/Desktop/project_1/project_1.srcs/sources_1/new/sha256_S3.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'sha256_S3' (0#1) [C:/Users/surya/Desktop/project_1/project_1.srcs/sources_1/new/sha256_S3.v:23]
+INFO: [Synth 8-6157] synthesizing module 'sha2_round' [C:/Users/surya/Desktop/project_1/project_1.srcs/sources_1/new/sha2_round.v:24]
+	Parameter WORDSIZE bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'sha2_round' (0#1) [C:/Users/surya/Desktop/project_1/project_1.srcs/sources_1/new/sha2_round.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'sha256_round' (0#1) [C:/Users/surya/Desktop/project_1/project_1.srcs/sources_1/new/sha256_round.v:24]
+INFO: [Synth 8-6157] synthesizing module 'sha256_s0' [C:/Users/surya/Desktop/project_1/project_1.srcs/sources_1/new/sha256_s0.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'sha256_s0' (0#1) [C:/Users/surya/Desktop/project_1/project_1.srcs/sources_1/new/sha256_s0.v:23]
+INFO: [Synth 8-6157] synthesizing module 'sha256_s1' [C:/Users/surya/Desktop/project_1/project_1.srcs/sources_1/new/sha256_s1.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'sha256_s1' (0#1) [C:/Users/surya/Desktop/project_1/project_1.srcs/sources_1/new/sha256_s1.v:23]
+INFO: [Synth 8-6157] synthesizing module 'W_machine' [C:/Users/surya/Desktop/project_1/project_1.srcs/sources_1/new/W_machine.v:24]
+	Parameter WORDSIZE bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'W_machine' (0#1) [C:/Users/surya/Desktop/project_1/project_1.srcs/sources_1/new/W_machine.v:24]
+INFO: [Synth 8-6157] synthesizing module 'sha256_K_machine' [C:/Users/surya/Desktop/project_1/project_1.srcs/sources_1/new/sha256_K_machine.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'sha256_K_machine' (0#1) [C:/Users/surya/Desktop/project_1/project_1.srcs/sources_1/new/sha256_K_machine.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'sha256_block' (0#1) [C:/Users/surya/Desktop/project_1/project_1.srcs/sources_1/new/sha256_block.v:25]
+INFO: [Synth 8-6155] done synthesizing module 'bitcoin_miner' (0#1) [C:/Users/surya/Desktop/project_2/project_2.srcs/sources_1/new/bitcoin_miner.v:23]
+WARNING: [Synth 8-7137] Register mined_hash_reg in module bitcoin_miner has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/surya/Desktop/project_2/project_2.srcs/sources_1/new/bitcoin_miner.v:96]
+WARNING: [Synth 8-7137] Register nonce_out_reg in module bitcoin_miner has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/surya/Desktop/project_2/project_2.srcs/sources_1/new/bitcoin_miner.v:97]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1194.027 ; gain = 584.320
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1194.027 ; gain = 584.320
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1194.027 ; gain = 584.320
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1194.027 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/surya/Desktop/project_2/project_2.srcs/constrs_1/new/bitcoin_miner.xdc]
+Finished Parsing XDC File [C:/Users/surya/Desktop/project_2/project_2.srcs/constrs_1/new/bitcoin_miner.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 1497.027 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+write_xdc: Time (s): cpu = 00:00:03 ; elapsed = 00:00:20 . Memory (MB): peak = 1540.223 ; gain = 43.195
+Constraint Validation Runtime : Time (s): cpu = 00:00:03 ; elapsed = 00:00:20 . Memory (MB): peak = 1540.223 ; gain = 43.195
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:42 ; elapsed = 00:01:01 . Memory (MB): peak = 1540.277 ; gain = 930.570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a200tfbg676-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:42 ; elapsed = 00:01:01 . Memory (MB): peak = 1540.277 ; gain = 930.570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:43 ; elapsed = 00:01:01 . Memory (MB): peak = 1540.277 ; gain = 930.570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:44 ; elapsed = 00:01:02 . Memory (MB): peak = 1540.277 ; gain = 930.570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   5 Input   32 Bit       Adders := 40    
+	   3 Input   32 Bit       Adders := 40    
+	   2 Input   32 Bit       Adders := 399   
+	   4 Input   32 Bit       Adders := 40    
+	   2 Input    7 Bit       Adders := 40    
++---XORs : 
+	   2 Input     32 Bit         XORs := 40    
+	   3 Input     32 Bit         XORs := 200   
++---Registers : 
+	             2048 Bit    Registers := 40    
+	              512 Bit    Registers := 40    
+	              256 Bit    Registers := 41    
+	               32 Bit    Registers := 321   
+	                7 Bit    Registers := 40    
+	                1 Bit    Registers := 43    
++---Muxes : 
+	   2 Input  512 Bit        Muxes := 40    
+	   2 Input   32 Bit        Muxes := 320   
+	   2 Input    7 Bit        Muxes := 40    
+	   2 Input    1 Bit        Muxes := 58    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 740 (col length:100)
+BRAMs: 730 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:51 ; elapsed = 00:01:10 . Memory (MB): peak = 1540.277 ; gain = 930.570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:01 ; elapsed = 00:01:20 . Memory (MB): peak = 1540.277 ; gain = 930.570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:04 ; elapsed = 00:01:24 . Memory (MB): peak = 1540.277 ; gain = 930.570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:06 ; elapsed = 00:01:25 . Memory (MB): peak = 1540.277 ; gain = 930.570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:11 ; elapsed = 00:01:31 . Memory (MB): peak = 1645.422 ; gain = 1035.715
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:11 ; elapsed = 00:01:31 . Memory (MB): peak = 1645.422 ; gain = 1035.715
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:11 ; elapsed = 00:01:31 . Memory (MB): peak = 1645.422 ; gain = 1035.715
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:11 ; elapsed = 00:01:31 . Memory (MB): peak = 1645.422 ; gain = 1035.715
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:12 ; elapsed = 00:01:31 . Memory (MB): peak = 1645.422 ; gain = 1035.715
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:12 ; elapsed = 00:01:31 . Memory (MB): peak = 1645.422 ; gain = 1035.715
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++--------------+------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name   | RTL Name                                                         | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++--------------+------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|bitcoin_miner | sha256_pipeline[39].sha256_inst/sha256_K_machine/rom_q_reg[2009] | 5      | 34    | YES          | NO                 | YES               | 34     | 0       | 
+|bitcoin_miner | sha256_pipeline[39].sha256_inst/sha256_K_machine/rom_q_reg[1946] | 7      | 8     | YES          | NO                 | YES               | 8      | 0       | 
+|bitcoin_miner | sha256_pipeline[39].sha256_inst/sha256_K_machine/rom_q_reg[1759] | 4      | 54    | YES          | NO                 | YES               | 54     | 0       | 
+|bitcoin_miner | sha256_pipeline[39].sha256_inst/sha256_K_machine/rom_q_reg[1508] | 6      | 24    | YES          | NO                 | YES               | 24     | 0       | 
+|bitcoin_miner | sha256_pipeline[39].sha256_inst/sha256_K_machine/rom_q_reg[1087] | 8      | 3     | YES          | NO                 | YES               | 3      | 0       | 
+|bitcoin_miner | sha256_pipeline[39].sha256_inst/sha256_K_machine/rom_q_reg[543]  | 11     | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|bitcoin_miner | sha256_pipeline[39].sha256_inst/sha256_K_machine/rom_q_reg[280]  | 9      | 2     | YES          | NO                 | YES               | 2      | 0       | 
+|bitcoin_miner | sha256_pipeline[39].sha256_inst/sha256_K_machine/rom_q_reg[1318] | 10     | 1     | YES          | NO                 | YES               | 1      | 0       | 
++--------------+------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |   118|
+|3     |LUT1   |   133|
+|4     |LUT2   |   429|
+|5     |LUT3   |   625|
+|6     |LUT4   |    38|
+|7     |LUT5   |    98|
+|8     |LUT6   |   104|
+|9     |SRL16E |   127|
+|10    |FDCE   |   550|
+|11    |FDPE   |     2|
+|12    |FDRE   |  1693|
+|13    |FDSE   |   776|
+|14    |IBUF   |   422|
+|15    |OBUF   |   289|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:12 ; elapsed = 00:01:31 . Memory (MB): peak = 1645.422 ; gain = 1035.715
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:39 ; elapsed = 00:00:51 . Memory (MB): peak = 1645.422 ; gain = 689.465
+Synthesis Optimization Complete : Time (s): cpu = 00:01:12 ; elapsed = 00:01:31 . Memory (MB): peak = 1645.422 ; gain = 1035.715
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.066 . Memory (MB): peak = 1648.270 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 118 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1654.539 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 85df149d
+INFO: [Common 17-83] Releasing license: Synthesis
+44 Infos, 3 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:20 ; elapsed = 00:01:42 . Memory (MB): peak = 1654.539 ; gain = 1284.234
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 1654.539 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/surya/Desktop/project_2/project_2.runs/synth_1/bitcoin_miner.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file bitcoin_miner_utilization_synth.rpt -pb bitcoin_miner_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Feb 25 14:01:20 2025...

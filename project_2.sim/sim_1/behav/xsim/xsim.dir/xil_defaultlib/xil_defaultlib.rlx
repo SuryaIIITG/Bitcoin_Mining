@@ -1,0 +1,22 @@
+0.7
+2020.2
+Dec 15 2024
+09:05:09
+C:/Users/surya/Desktop/project_1/project_1.srcs/sources_1/new/Ch.v,1737004468,verilog,,C:/Users/surya/Desktop/project_1/project_1.srcs/sources_1/new/Maj.v,,Ch,,,,,,,,
+C:/Users/surya/Desktop/project_1/project_1.srcs/sources_1/new/Maj.v,1737004562,verilog,,C:/Users/surya/Desktop/project_1/project_1.srcs/sources_1/new/W_machine.v,,Maj,,,,,,,,
+C:/Users/surya/Desktop/project_1/project_1.srcs/sources_1/new/W_machine.v,1737005306,verilog,,C:/Users/surya/Desktop/project_2/project_2.srcs/sources_1/new/bitcoin_miner.v,,W_machine,,,,,,,,
+C:/Users/surya/Desktop/project_1/project_1.srcs/sources_1/new/block_header.v,1740139442,verilog,,C:/Users/surya/Desktop/project_1/project_1.srcs/sources_1/new/mining_control.v,,block_header,,,,,,,,
+C:/Users/surya/Desktop/project_1/project_1.srcs/sources_1/new/mining_control.v,1740137903,verilog,,C:/Users/surya/Desktop/project_1/project_1.srcs/sources_1/new/sha256_K_machine.v,,mining_control,,,,,,,,
+C:/Users/surya/Desktop/project_1/project_1.srcs/sources_1/new/sha256_K_machine.v,1737012375,verilog,,C:/Users/surya/Desktop/project_1/project_1.srcs/sources_1/new/sha256_S3.v,,sha256_K_machine,,,,,,,,
+C:/Users/surya/Desktop/project_1/project_1.srcs/sources_1/new/sha256_S3.v,1737004430,verilog,,C:/Users/surya/Desktop/project_1/project_1.srcs/sources_1/new/sha256_S4.v,,sha256_S3,,,,,,,,
+C:/Users/surya/Desktop/project_1/project_1.srcs/sources_1/new/sha256_S4.v,1737004527,verilog,,C:/Users/surya/Desktop/project_1/project_1.srcs/sources_1/new/sha256_block.v,,sha256_S4,,,,,,,,
+C:/Users/surya/Desktop/project_1/project_1.srcs/sources_1/new/sha256_block.v,1740140080,verilog,,C:/Users/surya/Desktop/project_1/project_1.srcs/sources_1/new/sha256_double.v,,sha256_block,,,,,,,,
+C:/Users/surya/Desktop/project_1/project_1.srcs/sources_1/new/sha256_double.v,1740458706,verilog,,C:/Users/surya/Desktop/project_1/project_1.srcs/sources_1/new/sha256_round.v,,sha256_double,,,,,,,,
+C:/Users/surya/Desktop/project_1/project_1.srcs/sources_1/new/sha256_round.v,1737006152,verilog,,C:/Users/surya/Desktop/project_1/project_1.srcs/sources_1/new/sha256_s0.v,,sha256_round,,,,,,,,
+C:/Users/surya/Desktop/project_1/project_1.srcs/sources_1/new/sha256_s0.v,1737004238,verilog,,C:/Users/surya/Desktop/project_1/project_1.srcs/sources_1/new/sha256_s1.v,,sha256_s0,,,,,,,,
+C:/Users/surya/Desktop/project_1/project_1.srcs/sources_1/new/sha256_s1.v,1737004269,verilog,,C:/Users/surya/Desktop/project_1/project_1.srcs/sources_1/new/sha2_round.v,,sha256_s1,,,,,,,,
+C:/Users/surya/Desktop/project_1/project_1.srcs/sources_1/new/sha2_round.v,1737006051,verilog,,C:/Users/surya/Desktop/project_1/project_1.srcs/sources_1/new/target_check.v,,sha2_round,,,,,,,,
+C:/Users/surya/Desktop/project_1/project_1.srcs/sources_1/new/target_check.v,1740137860,verilog,,C:/Users/surya/Desktop/project_2/project_2.srcs/sim_1/new/tb_bitcoin_miner.v,,target_check,,,,,,,,
+C:/Users/surya/Desktop/project_2/project_2.sim/sim_1/behav/xsim/glbl.v,1724786425,verilog,,,,glbl,,,,,,,,
+C:/Users/surya/Desktop/project_2/project_2.srcs/sim_1/new/tb_bitcoin_miner.v,1740548503,verilog,,,,tb_bitcoin_miner,,,,,,,,
+C:/Users/surya/Desktop/project_2/project_2.srcs/sources_1/new/bitcoin_miner.v,1740548314,verilog,,C:/Users/surya/Desktop/project_1/project_1.srcs/sources_1/new/block_header.v,,bitcoin_miner,,,,,,,,

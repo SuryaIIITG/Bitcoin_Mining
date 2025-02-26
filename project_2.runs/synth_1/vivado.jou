@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.2.1 (64-bit)
+# SW Build 5266912 on Sun Dec 15 09:03:24 MST 2024
+# IP Build 5264866 on Sun Dec 15 16:27:47 MST 2024
+# SharedData Build 5264680 on Wed Dec 11 12:48:36 MST 2024
+# Start of session at: Tue Feb 25 13:59:30 2025
+# Process ID         : 11388
+# Current directory  : C:/Users/surya/Desktop/project_2/project_2.runs/synth_1
+# Command line       : vivado.exe -log bitcoin_miner.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source bitcoin_miner.tcl
+# Log file           : C:/Users/surya/Desktop/project_2/project_2.runs/synth_1/bitcoin_miner.vds
+# Journal file       : C:/Users/surya/Desktop/project_2/project_2.runs/synth_1\vivado.jou
+# Running On         : hp
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i5-13420H
+# CPU Frequency      : 2611 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 12
+# Host memory        : 16802 MB
+# Swap memory        : 0 MB
+# Total Virtual      : 16802 MB
+# Available Virtual  : 1667 MB
+#-----------------------------------------------------------
+source bitcoin_miner.tcl -notrace

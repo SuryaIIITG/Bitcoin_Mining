@@ -1,0 +1,25 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../project_1/project_1.srcs/sources_1/new/Ch.v" \
+"../../../../../project_1/project_1.srcs/sources_1/new/Maj.v" \
+"../../../../../project_1/project_1.srcs/sources_1/new/W_machine.v" \
+"../../../../project_2.srcs/sources_1/new/bitcoin_miner.v" \
+"../../../../../project_1/project_1.srcs/sources_1/new/block_header.v" \
+"../../../../../project_1/project_1.srcs/sources_1/new/mining_control.v" \
+"../../../../../project_1/project_1.srcs/sources_1/new/sha256_K_machine.v" \
+"../../../../../project_1/project_1.srcs/sources_1/new/sha256_S3.v" \
+"../../../../../project_1/project_1.srcs/sources_1/new/sha256_S4.v" \
+"../../../../../project_1/project_1.srcs/sources_1/new/sha256_block.v" \
+"../../../../../project_1/project_1.srcs/sources_1/new/sha256_double.v" \
+"../../../../../project_1/project_1.srcs/sources_1/new/sha256_round.v" \
+"../../../../../project_1/project_1.srcs/sources_1/new/sha256_s0.v" \
+"../../../../../project_1/project_1.srcs/sources_1/new/sha256_s1.v" \
+"../../../../../project_1/project_1.srcs/sources_1/new/sha2_round.v" \
+"../../../../../project_1/project_1.srcs/sources_1/new/target_check.v" \
+"../../../../project_2.srcs/sim_1/new/tb_bitcoin_miner.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
